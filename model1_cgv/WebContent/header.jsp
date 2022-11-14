@@ -13,65 +13,33 @@
 	<header>
 		<div class="header_contents1">
 			<div>
-				<a href="http://localhost:9000/mycgv/index.jsp" target="_parent">
-					<img src="http://localhost:9000/mycgv/images/logoRed.png" width="150" height="70"></a>
+				<a href="http://localhost:9000/model1_cgv/index.jsp" target="_parent">
+					<img src="http://localhost:9000/model1_cgv/images/logoRed.png" width="150" height="70"></a>
 				<span>CULTURFLEX</span>
 			</div>
-<%-- 			<% if(sid == null){ //로그인 하기 전 또는 로그인 실패 시 메뉴 %> --%>
 			<div>
-				<img src="http://localhost:9000/mycgv/images/hcard.png">
-				<a href="http://localhost:9000/mycgv/login/login.jsp" target="_parent" >
-					<img src="http://localhost:9000/mycgv/images/loginPassword.png">
+				<img src="http://localhost:9000/model1_cgv/images/hcard.png">
+				<a href="http://localhost:9000/model1_cgv/login/login.jsp" target="_parent" >
+					<img src="http://localhost:9000/model1_cgv/images/loginPassword.png">
 					<span>로그인</span>
 				</a>
-				<a href="http://localhost:9000/mycgv/join/join.jsp" target="_parent" >
-					<img src="http://localhost:9000/mycgv/images/loginJoin.png">
+				<a href="http://localhost:9000/model1_cgv/join/join.jsp" target="_parent" >
+					<img src="http://localhost:9000/model1_cgv/images/loginJoin.png">
 					<span>회원가입</span>
 				</a>
-				<a href="http://localhost:9000/mycgv/mycgv/mycgv.jsp" target="_parent">
-					<img src="http://localhost:9000/mycgv/images/loginMember.png">
+				<a href="http://localhost:9000/model1_cgv/mycgv/mycgv.jsp" target="_parent">
+					<img src="http://localhost:9000/model1_cgv/images/loginMember.png">
 					<span>MY CGV</span>
 				</a>
-				<a href="http://localhost:9000/mycgv/board/board_list.jsp" target="_parent" >
-					<img src="http://localhost:9000/mycgv/images/loginCustomer.png">
+				<a href="http://localhost:9000/model1_cgv/board/board_list.jsp" target="_parent" >
+					<img src="http://localhost:9000/model1_cgv/images/loginCustomer.png">
 					<span>게시판</span>
 				</a>
-				<a href="http://localhost:9000/mycgv/notice/notice_list.jsp" target="_parent" >
-					<img src="http://localhost:9000/mycgv/images/loginCustomer.png">
+				<a href="http://localhost:9000/model1_cgv/notice/notice_list.jsp" target="_parent" >
+					<img src="http://localhost:9000/model1_cgv/images/loginCustomer.png">
 					<span>공지사항</span>
 				</a>				
 			</div>
-<%-- 			<% }else{ //로그인에 성공한 경우 %>
-			<div>
-				<img src="http://localhost:9000/mycgv/images/hcard.png">
-				<a href="http://localhost:9000/mycgv/login/logout.jsp" target="_parent" >
-					<img src="http://localhost:9000/mycgv/images/loginPassword.png">
-					<span>로그아웃</span>
-				</a>
-				<a href="http://localhost:9000/mycgv/join/join.jsp" target="_parent" >
-					<img src="http://localhost:9000/mycgv/images/loginJoin.png">
-					<span>회원가입</span>
-				</a>
-				<a href="http://localhost:9000/mycgv/mycgv/mycgv.jsp" target="_parent">
-					<img src="http://localhost:9000/mycgv/images/loginMember.png">
-					<span>MY CGV</span>
-				</a>
-				<a href="http://localhost:9000/mycgv/board/board_list.jsp" target="_parent" >
-					<img src="http://localhost:9000/mycgv/images/loginCustomer.png">
-					<span>게시판</span>
-				</a>
-				<a href="http://localhost:9000/mycgv/notice/notice_list.jsp" target="_parent" >
-					<img src="http://localhost:9000/mycgv/images/loginCustomer.png">
-					<span>공지사항</span>
-				</a>
-					<% if(sid.equals("admin")){ %>
-					<a href="http://localhost:9000/mycgv/admin/admin.jsp" target="_parent" >
-						<img src="http://localhost:9000/mycgv/images/loginCustomer.png">
-						<span>Admin</span>
-					</a>
-					<% } %>				
-			</div>
-			<% } %> --%>
 		</div>
 		<div class="header_contents2">
 			<nav>

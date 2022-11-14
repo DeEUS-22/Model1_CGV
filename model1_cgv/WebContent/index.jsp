@@ -10,7 +10,7 @@
 <!-------------------->
 <!-- Haeder Include -->
 <!-------------------->
-
+<iframe src="header.jsp" width="100%" height="160px" scrolling="no" frameborder=0 ></iframe>
 
 <!-------------------->
 <!----- content ------>
@@ -162,7 +162,7 @@
 <!-------------------->
 <!-- footer Include -->
 <!-------------------->
-
+<iframe src="footer.jsp" width="100%" height="530px" scrolling="no" frameborder=0></iframe>
 
 </body>
 </html>
