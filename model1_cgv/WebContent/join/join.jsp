@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <script src="http://localhost:9000/model1_cgv/js/jquery-3.6.0.min.js"></script>
+<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 <script>
 	$(document).ready(function(){
 		/*********************
@@ -69,7 +70,55 @@
 				//서버전송
 				joinForm.submit();
 			}
-		});
+		}); //click()-end
+		
+		
+		/*********************
+			비밀번호, 비밀번호 확인 비교
+		**********************/
+		$("#cpass").on("blur",()=>{
+			if($("#pass").val() != "" && $("#cpass").val() != ""){
+				if($("#pass").val() == $("#cpass").val()){
+					$("#passCheckMsg").text("*비밀번호가 동일합니다.").css("color","blue").css("font-size","12px");
+				}else{
+					$("#passCheckMsg").text("*비밀번호가 동일하지 않습니다. 다시 입력해주세요.").css("color","red").css("font-size","12px");
+					$("#cpass").val("");
+					$("#pass").val("").focus();
+				}
+			}//else{} --> 회원가입 폼의 유효성 체크로 진행됨
+		}); //blur()-end
+		
+		
+		/*********************
+			이메일 주소 선택
+		**********************/
+		$("#email3").change(()=>{
+			if($("#email3").val() == "default"){
+				alert("이메일 주소를 선택해주세요");
+				$("#email3").focus();
+				$("#email2").val("");
+			}else if($("#email3").val() == "self"){
+				$("#email2").val("").focus();
+			}else{
+				$("#email2").val($("#email3").val());
+			}	
+		}); //change()-end
+		
+		
+		/*********************
+			회원가입 - 주소찾기
+		 **********************/
+		$("#btnSearchAddr").click(function(){
+			new daum.Postcode({
+		        oncomplete: function(data) {
+		            //alert(data.address);
+		            $("#zonecode").val(data.zonecode);
+		            $("#addr1").val(data.address);
+		            $("#addr2").focus();
+		        }
+		    }).open(); 
+		}); //addr.click()-end
+		
 	}); // ready function - end
 </script>
 </head>
@@ -98,7 +147,7 @@
 			<li>
 				<label>비밀번호 확인</label>
 				<input type="password" name="cpass" id="cpass" >
-				<span>*비밀번호를 다시 입력해주세요</span>
+				<span id="passCheckMsg">*비밀번호를 다시 입력해주세요</span>
 			</li>
 			<li>
 				<label>성명</label>
