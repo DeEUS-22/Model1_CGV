@@ -12,7 +12,6 @@
 			회원가입 폼 유효성 체크
 		**********************/
 		$("#btnJoin").click(function(){		
-			
 			if($("#id").val() == ""){
 				alert("아이디를 입력해주세요");
 				$("#id").focus();
@@ -70,7 +69,6 @@
 				//서버전송
 				joinForm.submit();
 			}
-			
 		});
 	}); // ready function - end
 </script>
@@ -156,7 +154,6 @@
 				<input type="checkbox" name="hobby" value="등산하기"><span>등산하기</span>
 				<input type="checkbox" name="hobby" value="게임하기"><span>게임하기</span>
 				<input type="checkbox" name="hobby" value="잠자기"><span>잠자기</span>
-
 			</li>
 			<li>
 				<label>자기소개</label>
@@ -166,8 +163,8 @@
 				<button type="button" class="btn_style" id="btnJoin">가입하기</button>
 				<button type="reset" class="btn_style">다시입력</button>				
 			</li>
-		</ul>	
-	</form>	 
+		</ul>
+	</form>
 </div>
 
 <!-------------------->

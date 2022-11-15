@@ -18,7 +18,9 @@
 				<span>CULTURFLEX</span>
 			</div>
 			<div>
-				<img src="http://localhost:9000/model1_cgv/images/hcard.png">
+				<a href="http://localhost:9000/model1_cgv/preparing.jsp" target="_parent" >
+					<img src="http://localhost:9000/model1_cgv/images/hcard.png">
+				</a>
 				<a href="http://localhost:9000/model1_cgv/login/login.jsp" target="_parent" >
 					<img src="http://localhost:9000/model1_cgv/images/loginPassword.png">
 					<span>로그인</span>

@@ -9,20 +9,22 @@
 <body>
 <footer>
 		<div class="d1">
-			<img src="http://localhost:9000/model1_cgv/images/The_bottom.png">
+			<a href="http://localhost:9000/model1_cgv/preparing.jsp" target="_parent" >
+				<img src="http://localhost:9000/model1_cgv/images/The_bottom.png">
+			</a>
 		</div>
 		<nav>
 			<ul>
-				<li><a href="#">회사소개</a></li>
-				<li><a href="#">IR</a></li>
-				<li><a href="#">광고/제휴/출점문의</a></li>
-				<li><a href="#">이용약관</a></li>
-				<li><a href="#">편성기준</a></li>
-				<li><a href="#">개인정보처리방침</a></li>
-				<li><a href="#">법적고지</a></li>
-				<li><a href="#">이메일주소무단수집거부</a></li>
-				<li><a href="#">윤리경영</a></li>
-				<li><a href="#">사이버감사실</a></li>
+				<li><a href="http://localhost:9000/model1_cgv/preparing.jsp" target="_parent" >회사소개</a></li>
+				<li><a href="http://localhost:9000/model1_cgv/preparing.jsp" target="_parent" >IR</a></li>
+				<li><a href="http://localhost:9000/model1_cgv/preparing.jsp" target="_parent" >광고/제휴/출점문의</a></li>
+				<li><a href="http://localhost:9000/model1_cgv/preparing.jsp" target="_parent" >이용약관</a></li>
+				<li><a href="http://localhost:9000/model1_cgv/preparing.jsp" target="_parent" >편성기준</a></li>
+				<li><a href="http://localhost:9000/model1_cgv/preparing.jsp" target="_parent" >개인정보처리방침</a></li>
+				<li><a href="http://localhost:9000/model1_cgv/preparing.jsp" target="_parent" >법적고지</a></li>
+				<li><a href="http://localhost:9000/model1_cgv/preparing.jsp" target="_parent" >이메일주소무단수집거부</a></li>
+				<li><a href="http://localhost:9000/model1_cgv/preparing.jsp" target="_parent" >윤리경영</a></li>
+				<li><a href="http://localhost:9000/model1_cgv/preparing.jsp" target="_parent" >사이버감사실</a></li>
 			</ul>
 		</nav>
 		<div class="d2">
