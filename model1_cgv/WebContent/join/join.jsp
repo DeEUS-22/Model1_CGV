@@ -92,7 +92,6 @@
 				<label>아이디</label>
 				<input type="text" name="id" id="id" placeholder="*영문자숫자포함 8자이상">
 				<button type="button" class="btn_style" id="idCheck">중복확인</button>
-				<div id="idCheckMsg"></div>
 			</li>
 			<li>
 				<label>비밀번호</label>
@@ -101,7 +100,7 @@
 			<li>
 				<label>비밀번호 확인</label>
 				<input type="password" name="cpass" id="cpass" >
-				<span id="passCheckMsg">*비밀번호를 다시 입력해주세요</span>
+				<span>*비밀번호를 다시 입력해주세요</span>
 			</li>
 			<li>
 				<label>성명</label>
