@@ -4,7 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Join</title>
+<link rel="stylesheet" href="http://localhost:9000/model1_cgv/css/cgv.css">
 <script src="http://localhost:9000/model1_cgv/js/jquery-3.6.0.min.js"></script>
 <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 <script>

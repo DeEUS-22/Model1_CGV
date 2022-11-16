@@ -4,7 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>login</title>
+<link rel="stylesheet" href="http://localhost:9000/model1_cgv/css/cgv.css">
 <script src="http://localhost:9000/model1_cgv/js/jquery-3.6.0.min.js"></script>
 <script>
 	$(document).ready(function(){
