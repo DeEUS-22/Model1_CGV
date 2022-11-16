@@ -4,7 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Index</title>
+<link rel="stylesheet"  href="http://localhost:9000/model1_cgv/css/cgv.css">
 </head>
 <body>
 <!-------------------->

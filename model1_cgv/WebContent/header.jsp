@@ -4,7 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>header</title>
+<link rel="stylesheet"  href="http://localhost:9000/model1_cgv/css/cgv.css">
 </head>
 <body>
 <!---------------------------------------------->
@@ -19,7 +20,7 @@
 			</div>
 			<div>
 				<a href="http://localhost:9000/model1_cgv/preparing.jsp" target="_parent" >
-					<img src="http://localhost:9000/model1_cgv/images/hcard.png">
+					<img src="http://localhost:9000/model1_cgv/images/hcard.png" class="hcard">
 				</a>
 				<a href="http://localhost:9000/model1_cgv/login/login.jsp" target="_parent" >
 					<img src="http://localhost:9000/model1_cgv/images/loginPassword.png">
