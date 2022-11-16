@@ -35,5 +35,32 @@ public class CgvMemberDAO extends DBConn{
 		}
 		
 		return result;
-	}
+	}//insert-end
+	
+	/**
+	 * select : ·Î±×ÀÎ
+	 */
+	public int select(CgvMemberVO vo) {
+		int result = 0;
+		String sql = "select count(*) from cgv_member "
+				+ " where id=? and pass=?";
+		
+		try {
+			getPreparedStatement(sql);
+			pstmt.setString(1, vo.getId());
+			pstmt.setString(2, vo.getPass());
+			
+			rs = pstmt.executeQuery();
+			while(rs.next()) {
+				result = rs.getInt(1);
+			}
+			
+			close();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return result;
+	}//select-end
 }

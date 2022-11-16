@@ -4,14 +4,16 @@
 <%@ page import="com.model1_cgv.dao.CgvMemberDAO" %>
 
 <jsp:useBean id="vo" class="com.model1_cgv.vo.CgvMemberVO" />
-<jsp:setProperty name="vo" property="*" />  
+<jsp:setProperty property="*" name="vo"/>
 
 <%
 	CgvMemberDAO dao = new CgvMemberDAO();
-	int result = dao.insert(vo);
+	int result = dao.select(vo);
 	if(result == 1){
-		response.sendRedirect("../login/login.jsp?join=ok");
-	}else {
+		//로그인 성공 --> session객체에 key,value 추가 후 index 페이지로 이동
+		session.setAttribute("sid", vo.getId());  //sid=test
+		response.sendRedirect("../index.jsp?login=ok");
+	}else{
 		response.sendRedirect("../errorPage.jsp");
 	}
 %>
