@@ -48,7 +48,7 @@
 		</tr>
 		<% } %>
 		<tr>
-			<td colspan="4"><div id="ampaginationsm"></div></td>
+			<td colspan="4">1234</td>
 		</tr>
 	</table>	
 </div>

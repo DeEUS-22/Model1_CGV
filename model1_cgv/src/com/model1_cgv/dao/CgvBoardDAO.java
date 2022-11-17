@@ -59,4 +59,51 @@ public class CgvBoardDAO extends DBConn{
 		return list;
 	}//select()-end
 	
+	/**
+	 * select : 게시글 상세 보기
+	 */
+	public CgvBoardVO select(String bid) {
+		CgvBoardVO vo = new CgvBoardVO();
+		String sql = "select bid, btitle, bcontent,bhits, bdate "
+				+ " from cgv_board  where bid=?";
+		
+		try {
+			getPreparedStatement(sql);
+			pstmt.setString(1, bid);
+			rs = pstmt.executeQuery();
+			while(rs.next()) {
+				vo.setBid(rs.getString(1));
+				vo.setBtitle(rs.getString(2));
+				vo.setBcontent(rs.getString(3));
+				vo.setBhits(rs.getInt(4));
+				vo.setBdate(rs.getString(5));
+			}
+			//close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return vo;
+	}
+	
+	/**
+	 * updateHits : 조회수 업데이트
+	 */
+	public int updateHits(String bid) {
+		int result = 0;
+		String sql = "update cgv_board set bhits=bhits+1 "
+				+ " where bid=?";
+		
+		try {
+			getPreparedStatement(sql);
+			pstmt.setString(1, bid);
+			result = pstmt.executeUpdate();
+			
+			close();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return result;
+	}
+	
 }//CgvBoardDAO-END
