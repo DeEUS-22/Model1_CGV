@@ -83,7 +83,7 @@ public class CgvBoardDAO extends DBConn{
 			e.printStackTrace();
 		}
 		return vo;
-	}
+	}//select(bid)-end
 	
 	/**
 	 * updateHits : 조회수 업데이트
@@ -104,6 +104,53 @@ public class CgvBoardDAO extends DBConn{
 			e.printStackTrace();
 		}
 		return result;
-	}
+	}//updateHits()-end
+	
+	/**
+	 * update : 게시글 수정 
+	 */
+	public int update(CgvBoardVO vo) {
+		int result = 0;
+		String sql = "update cgv_board set btitle=?, bcontent=? "
+				+ " where bid=?";
+		
+		try {
+			getPreparedStatement(sql);
+			pstmt.setString(1, vo.getBtitle());
+			pstmt.setString(2, vo.getBcontent());
+			pstmt.setString(3, vo.getBid());
+			
+			result = pstmt.executeUpdate();
+			
+			close();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return result;
+	}//update()-end
+	
+	/**
+	 * delete : 게시글 삭제
+	 */
+	public int delete(String bid) {
+		int result = 0;
+		String sql = "delete from cgv_board where bid=?";
+		
+		try {
+			getPreparedStatement(sql); 
+			pstmt.setString(1, bid);
+			
+			result = pstmt.executeUpdate();
+			
+			close();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return result;
+	}//delete()-end
 	
 }//CgvBoardDAO-END
