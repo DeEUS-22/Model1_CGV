@@ -8,6 +8,9 @@
 <link rel="stylesheet"  href="http://localhost:9000/model1_cgv/css/cgv.css">
 </head>
 <body>
+<!---------------------------------------------->
+<!--------------- footer ----------------------->
+<!---------------------------------------------->
 <footer>
 		<div class="d1">
 			<a href="http://localhost:9000/model1_cgv/preparing.jsp" target="_parent" >

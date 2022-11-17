@@ -125,7 +125,7 @@
 </head>
 <body>
 <!-------------------->
-<!-- Haeder Include -->
+<!-- header Include -->
 <!-------------------->
 <iframe src="http://localhost:9000/model1_cgv/header.jsp" width="100%" height="160px" scrolling="no" frameborder=0 ></iframe>
 
