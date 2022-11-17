@@ -1,5 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ page import = "com.model1_cgv.vo.CgvBoardVO" %>
+<%@ page import = "com.model1_cgv.dao.CgvBoardDAO" %>
+<%@ page import = "java.util.ArrayList" %>
+<%
+	CgvBoardDAO dao = new CgvBoardDAO();
+	ArrayList<CgvBoardVO> list = dao.select();
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,14 +39,16 @@
 			<th>등록날짜</th>
 			<th>조회수</th>
 		</tr>
+		<% for(CgvBoardVO vo : list){ %>
 		<tr>
-			<td>1</td>
-			<td><a href="board_content.jsp">영화게시판 이용안내</a></td>
-			<td>2022-11-17</td>
-			<td>7</td>
+			<td><%= vo.getRno() %></td>
+			<td><a href="board_content.jsp?bid=<%=vo.getBid()%>"><%= vo.getBtitle() %></a></td>
+			<td><%= vo.getBdate() %></td>
+			<td><%= vo.getBhits() %></td>
 		</tr>
+		<% } %>
 		<tr>
-			<td colspan="4">1234</td>
+			<td colspan="4"><div id="ampaginationsm"></div></td>
 		</tr>
 	</table>	
 </div>
