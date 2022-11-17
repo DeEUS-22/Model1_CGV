@@ -6,6 +6,24 @@
 <meta charset="UTF-8">
 <title>게시글 작성</title>
 <link rel="stylesheet"  href="http://localhost:9000/model1_cgv/css/cgv.css">
+<script src="http://localhost:9000/model1_cgv/js/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+	/*********************
+		게시판 등록폼 유효성 체크
+	**********************/
+	$("#btnBoardWrite").click(()=>{
+		if($("#btitle").val() == ""){
+			alert("제목을 입력해주세요");
+			$("#btitle").focus();
+			return false;
+		}else{
+			//서버전송
+			boardWriteForm.submit();
+		}
+	}); //click-end
+});//ready-end
+</script>
 </head>
 <body>
 <!-------------------->
