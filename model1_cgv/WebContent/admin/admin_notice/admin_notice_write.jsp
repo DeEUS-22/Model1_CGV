@@ -6,6 +6,22 @@
 <meta charset="UTF-8">
 <title>공지관리 - 공지사항 작성하기</title>
 <link rel="stylesheet"  href="http://localhost:9000/model1_cgv/css/cgv.css">
+<script src="http://localhost:9000/model1_cgv/js/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("#btnNoticeWrite").click(()=>{
+		
+		if($("#ntitle").val() == ""){
+			alert("제목을 입력해주세요");
+			$("#ntitle").focus();
+			return false;
+		}else{
+			//서버전송
+			boardWriteForm.submit();
+		}
+	});
+});
+</script>
 </head>
 <body>
 	<!-------------------->
