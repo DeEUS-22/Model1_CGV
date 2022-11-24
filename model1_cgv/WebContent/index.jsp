@@ -79,7 +79,7 @@
 			<ul>
 				<li>
 					<h3>영화관람권</h3>
-					<button type="button">더보기</button>
+					<button type="button" class="btn_style2">더보기</button>
 				</li>
 				<li>
 					<img src="http://localhost:9000/model1_cgv/images/cgv_movie.jpg">
@@ -106,7 +106,7 @@
 			<ul>
 				<li>
 					<h3>기프트카드</h3>
-					<button type="button">더보기</button>
+					<button type="button" class="btn_style2">더보기</button>
 				</li>
 				<li >
 					<img src="http://localhost:9000/model1_cgv/images/paconnie_a.jpg">
@@ -133,7 +133,7 @@
 			<ul>
 				<li>
 					<h3>음료</h3>
-					<button type="button">더보기</button>
+					<button type="button" class="btn_style2">더보기</button>
 				</li>
 				<li >
 					<img src="http://localhost:9000/model1_cgv/images/coke.jpg">
