@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>CGV</title>
 <link rel="stylesheet"  href="http://localhost:9000/model1_cgv/css/cgv.css">
-<script src="http://localhost:9000/mycgv/js/jquery-3.6.0.min.js"></script>
+<script src="http://localhost:9000/model1_cgv/js/jquery-3.6.0.min.js"></script>
 <script>
 	$(document).ready(function(){
 		
@@ -31,12 +31,12 @@
 					output += "<th>조회수</th>"
 					output += "</tr>"
 					for(obj of dataset.list){
-							output += "<tr>"
-							output += "<td>"+ obj.rno  +"</td>"
-							output += "<td><a href='#' class='bclass' id='"+ obj.nid+"'>"+ obj.ntitle +"</a></td>"
-							output += "<td>"+ obj.ndate +"</td>"
-							output += "<td>"+ obj.nhits +"</td>"
-							output += "</tr>"
+						output += "<tr>"
+						output += "<td>"+ obj.rno  +"</td>"
+						output += "<td><a href='#' class='bclass' id='"+ obj.nid+"'>"+ obj.ntitle +"</a></td>"
+						output += "<td>"+ obj.ndate +"</td>"
+						output += "<td>"+ obj.nhits +"</td>"
+						output += "</tr>"
 					}
 					output += "<tr>"
 					output += "<td colspan='4'>1234</td>"
@@ -117,7 +117,7 @@
 <!-------------------->
 <!-- header Include -->
 <!-------------------->
-<iframe src="header.jsp" width="100%" height="160px" scrolling="no" frameborder=0 ></iframe>
+<iframe src="http://localhost:9000/model1_cgv/header.jsp" width="100%" height="160px" scrolling="no" frameborder=0 ></iframe>
 
 <!---------------------------------------------->
 <!--------------- Content ----------------------->
@@ -129,7 +129,7 @@
 <!-------------------->
 <!-- footer Include -->
 <!-------------------->
-<iframe src="footer.jsp" width="100%" height="530px" scrolling="no" frameborder=0></iframe>
+<iframe src="http://localhost:9000/model1_cgv/footer.jsp" width="100%" height="530px" scrolling="no" frameborder=0></iframe>
 
 </body>
 </html>
