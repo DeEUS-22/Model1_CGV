@@ -1,11 +1,20 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%
+	String login_result = request.getParameter("login");
+%> 
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Index</title>
 <link rel="stylesheet"  href="http://localhost:9000/model1_cgv/css/cgv.css">
+<script>
+	let login_result = '<%= login_result%>';
+	if(login_result == 'ok'){
+		alert("로그인에 성공하셨습니다.");
+	}
+</script>
 </head>
 <body>
 <!-------------------->
