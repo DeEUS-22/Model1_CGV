@@ -38,9 +38,6 @@
 						output += "<td>"+ obj.nhits +"</td>"
 						output += "</tr>"
 					}
-					output += "<tr>"
-					output += "<td colspan='4'>1234</td>"
-					output += "</tr>"
 					output += "</table>";
 					
 		

@@ -47,9 +47,6 @@
 			<td><%= vo.getBhits() %></td>
 		</tr>
 		<% } %>
-		<tr>
-			<td colspan="4">1234</td>
-		</tr>
 	</table>	
 </div>
 <!-------------------->

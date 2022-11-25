@@ -47,9 +47,6 @@
 				<td><%= vo.getNhits() %></td>
 			</tr>
 			<% } %>
-			<tr>
-				<td colspan="4"><div id="ampaginationsm"></div></td>
-			</tr>
 		</table>	
 	</div>
 	
