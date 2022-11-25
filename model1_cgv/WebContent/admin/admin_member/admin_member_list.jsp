@@ -41,6 +41,9 @@
 				<td><%= vo.getMdate() %></td>
 			</tr>
 			<% } %>
+			<tr>
+				<td colspan='5'></td>
+			</tr>
 		</table>	
 	</div>
 	

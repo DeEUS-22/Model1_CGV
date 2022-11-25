@@ -47,6 +47,9 @@
 			<td><%= vo.getBhits() %></td>
 		</tr>
 		<% } %>
+		<tr>
+			<td colspan='4'></td>
+		</tr>
 	</table>	
 </div>
 <!-------------------->
