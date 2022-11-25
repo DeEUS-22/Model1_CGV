@@ -27,7 +27,7 @@
 	<!----- content ------>
 	<!-------------------->
 	<div class="content">
-		<h1>공지사항-상세보기</h1>
+		<h1>관리자 페이지 - 공지사항 상세보기</h1>
 		<table class="boardContent">	
 			<tr>				
 				<th>등록일자</th>

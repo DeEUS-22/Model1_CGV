@@ -39,7 +39,7 @@ $(document).ready(function(){
 	<!----- content ------>
 	<!-------------------->
 	<div class="content">
-		<h1>공지사항-수정하기</h1>
+		<h1>관리자 페이지 - 공지사항 수정하기</h1>
 		<form name="boardUpdateForm" action="adminNoticeUpdateController.jsp" method="post">
 			<input type="hidden" name="nid" value="<%=vo.getNid()%>">
 			<ul>

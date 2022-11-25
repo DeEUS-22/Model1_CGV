@@ -33,7 +33,7 @@ $(document).ready(function(){
 	<!----- content ------>
 	<!-------------------->
 	<div class="content">
-		<h1>공지사항-글쓰기</h1>
+		<h1>관리자 페이지 - 공지사항 작성하기</h1>
 		<form name="boardWriteForm" action="adminNoticeWriteController.jsp" method="post">
 			<ul>
 				<li>

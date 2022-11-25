@@ -11,7 +11,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>공지관리 - 공지사항 리스트</title>
+<title>관리자 페이지-공지사항 리스트</title>
 <link rel="stylesheet"  href="http://localhost:9000/model1_cgv/css/cgv.css">
 </head>
 <body>
