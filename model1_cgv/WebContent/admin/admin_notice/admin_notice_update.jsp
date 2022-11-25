@@ -11,7 +11,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>공지관리 - 공지사항 수정하기</title>
+<title>관리자 페이지 - 공지사항 수정하기</title>
 <link rel="stylesheet" href="http://localhost:9000/model1_cgv/css/cgv.css">
 <script src="http://localhost:9000/model1_cgv/js/jquery-3.6.0.min.js"></script>
 <script>

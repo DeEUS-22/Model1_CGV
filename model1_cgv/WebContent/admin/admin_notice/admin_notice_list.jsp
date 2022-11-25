@@ -24,7 +24,7 @@
 	<!----- content ------>
 	<!-------------------->
 	<div class="content">
-		<h1>공지사항-리스트</h1>
+		<h1>관리자 페이지-공지사항 리스트</h1>
 		<table class="board">
 			<tr>
 				<td colspan="4">
