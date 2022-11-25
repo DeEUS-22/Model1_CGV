@@ -41,7 +41,7 @@
 <!----- content ------>
 <!-------------------->
 <div class="content">
-	<h1>Login</h1>
+	<h1 class="h1">로그인</h1>
 	<form name="loginForm" action="loginController.jsp" method="post">
 	<ul>
 		<li>

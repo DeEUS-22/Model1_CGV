@@ -27,7 +27,7 @@
 <!----- content ------>
 <!-------------------->
 <div class="content">
-	<h1>게시판-상세보기</h1>
+	<h1 class="h1">게시판-상세보기</h1>
 	<table class="boardContent">	
 		<tr>				
 			<th>등록일자</th>

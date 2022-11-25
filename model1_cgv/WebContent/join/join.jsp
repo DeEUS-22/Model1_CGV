@@ -133,7 +133,7 @@
 <!----- content ------>
 <!-------------------->
 <div class="content">
-	<h1>회원가입</h1>
+	<h1 class="h1">회원가입</h1>
 	<form name="joinForm" action="joinController.jsp" method="post">
 		<ul>
 			<li>

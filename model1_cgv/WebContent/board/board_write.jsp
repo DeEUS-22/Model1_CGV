@@ -35,7 +35,7 @@ $(document).ready(function(){
 <!----- content ------>
 <!-------------------->
 <div class="content">
-	<h1>게시판-글쓰기</h1>
+	<h1 class="h1">게시판-글쓰기</h1>
 	<form name="boardWriteForm" action="boardWriteController.jsp" method="post">
 		<ul>
 			<li>

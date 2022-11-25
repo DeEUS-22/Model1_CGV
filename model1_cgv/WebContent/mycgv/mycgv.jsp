@@ -17,7 +17,7 @@
 	<!----- content ------>
 	<!-------------------->
 	<div class="content">
-		<h1>마이CGV</h1>	
+		<h1 class="h1">마이CGV</h1>	
 		<section class="mycgv">
 			<article>예매확인</article>
 			<article>정보수정</article>

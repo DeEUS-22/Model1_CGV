@@ -620,4 +620,12 @@
  	div.content section.adminMain article a{
  		color:#fff;
  	}
+ 	
+ 	/***********
+ 		°øÅë h1
+ 	***********/
+ 	
+ 	.content .h1 {
+ 		padding-left : 54px;
+ 	}
 	

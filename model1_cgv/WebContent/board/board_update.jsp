@@ -25,7 +25,7 @@
 <!----- content ------>
 <!-------------------->
 <div class="content">
-	<h1>게시판-수정하기</h1>
+	<h1 class="h1">게시판-수정하기</h1>
 	<form name="boardUpdateForm" action="boardUpdateController.jsp" method="post">
 		<input type="hidden" name="bid"  value="<%=vo.getBid() %>" >
 		<ul>

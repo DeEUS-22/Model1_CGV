@@ -20,7 +20,7 @@
 <!----- content ------>
 <!-------------------->
 <div class="content">
-	<h1>게시판-삭제하기</h1>
+	<h1 class="h1">게시판-삭제하기</h1>
 	<form name="boardDeleteForm" action="boardDeleteController.jsp" method="post">
 		<input type="hidden" name="bid" value="<%=bid%>">
 		<ul>

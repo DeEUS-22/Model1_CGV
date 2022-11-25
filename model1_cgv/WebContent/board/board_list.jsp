@@ -24,7 +24,7 @@
 <!----- content ------>
 <!-------------------->
 <div class="content">
-	<h1>게시판-리스트</h1>
+	<h1 class="h1">게시판</h1>
 	<table class="board">
 		<tr>
 			<td colspan="4">
